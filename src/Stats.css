@@ -1,0 +1,80 @@
+li {
+    list-style: none;
+}
+
+.team-ranking {
+    width: 90%;
+    box-sizing: border-box;
+    margin-top: 2em;
+}
+
+.ranked-team {
+    display: flex;
+    flex-direction: row;
+    padding: .3em 1em .3em 0em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ranked-team:nth-child(even) {
+    background-color: #eee;
+}
+
+.rank {
+    font-weight: 700;
+    font-size: 1.35em;
+    width: 3.5em;
+    text-align: center;
+}
+
+.team-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.team-info > img {
+    height: 35px;
+    margin-right: .5em;
+}
+
+.team-name {
+    font-size: 1.15rem;
+}
+
+.team-stats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 7em;
+}
+
+.team-wins {
+    width: 3.5em;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.team-diff {
+    width: 3.5em;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.ranking-key {
+    border-bottom: 2px #ccc solid;
+    background: #fff;
+    padding-left: 1.5em;
+}
+
+.key-title {
+    font-size: .9rem;
+    color: #aaa;
+}
+
+.rank-key {
+    margin-right: 6em;
+}
