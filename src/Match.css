@@ -1,0 +1,126 @@
+.match-card {
+    width: 100%;
+    margin: 2em 0em;
+}
+
+.match-header {
+    width: 100%;
+    height: 4em;
+}
+
+.team-header {
+    width: 50%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: top;
+    box-sizing: border-box;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header-left {
+    padding: .5em .75em .5em 1em;
+}
+
+.header-right {
+    padding: .5em 1em .5em .75em;
+}
+
+h1 {
+    font-size: 1.3rem;
+    margin: 0em;
+    font-weight: 500;
+    color: #fff;
+}
+
+.header-score {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.header-left > .header-score {
+    margin-left: 1em;
+}
+
+.header-right > .header-score {
+    margin-right: 1em;
+}
+
+
+
+
+.game-list {
+    width: 100%;
+}
+
+.game-item {
+    width: 100%;
+    height: 3em;
+    padding: 0em 1em;
+    box-sizing: border-box;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px #eee solid;
+}
+
+.game-item:last-child {
+    border-bottom: none;
+}
+
+.game-team-score {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    width: 32%;
+    justify-content: space-between;
+    padding: .5em 0em;
+}
+
+.game-team-id {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.team-left > .team-icon {
+    margin-right: .75em;
+}
+
+.team-right > .team-icon {
+    margin-left: .75em;
+}
+
+h3 {
+    font-size: 1rem;
+    margin: 0em;
+    color: #fff;
+}
+
+h4 {
+    display: inline;
+    font-size: 1.35rem;
+    margin: 0em;
+}
+
+p {
+    display: inline;
+}
+
+.game-map {
+    display: inline-flex;
+    width: 35%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    margin: 0em 1em;
+}
+
+.team-icon {
+    height: 35px;
+    display: inline;
+}
